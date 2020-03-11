@@ -11,7 +11,9 @@ When compared to REST+JSON combination, gRPC offers better performance and secur
 
 Why should microservices developers use gRPC? It uses HTTP/2 to support highly performant and scalable APIs. The use of binary rather than text keeps the payload compact and efficient. HTTP/2 requests are multiplexed over a single TCP connection, allowing multiple concurrent messages to be in flight without compromising network resource usage. It uses header compression to reduce the size of requests and responses.
 
-Create proto -> Generate gRPC related classes -> Extends generated gRPC classes
+Developing gRPC project contains 3 steps,
+
+Create proto -> Generate gRPC related classes(Using Plugin) -> Extends generated gRPC classes
 
 ### Ecommerce Database
 
