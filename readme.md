@@ -2,6 +2,8 @@
 
 ### 1. REST APIs
 
+### 2. GraphQL
+
 ### 3. gRPC Server
 gRPC is a high performance, open source RPC framework developed by Google where a client application can directly call a server method as if it was a local object.Clients invoke a method on the Stub, which gets transparently handled by the underlying protocol.
 
@@ -14,6 +16,11 @@ Why should microservices developers use gRPC? It uses HTTP/2 to support highly p
 Developing gRPC project contains 3 steps,
 
 Create proto -> Generate gRPC related classes(Using Plugin) -> Extends generated gRPC classes
+
+- Test using `bloom rpc client`
+
+[bloomrpc](https://github.com/uw-labs/bloomrpc)
+![bloomrpc request](grpc-server/client.png)
 
 ### Ecommerce Database
 
