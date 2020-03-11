@@ -4,6 +4,17 @@
 
 ### 2. GraphQL
 
+- No need to create multiple API endpoints
+  
+```html
+https://localhost:8080/items 
+https://localhost:8080/item/{id}
+```
+
+- we get the exact data we need or request. This is unlike in REST implementation, where we make an HTTP GET call to get a JSON response even if we are looking at the values for a few attributes.
+
+- Integrating front-end applications with GraphQL are fast & responsive
+
 ### 3. gRPC Server
 gRPC is a high performance, open source RPC framework developed by Google where a client application can directly call a server method as if it was a local object.Clients invoke a method on the Stub, which gets transparently handled by the underlying protocol.
 
